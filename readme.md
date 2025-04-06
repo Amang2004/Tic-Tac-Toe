@@ -10,7 +10,6 @@ This is a fun and responsive Tic Tac Toe game built with HTML, CSS, and JavaScri
 - Detects wins and draws
 - Reset game functionality
 - Responsive design (works on mobile)
-- Light and Dark mode toggle 🌗
 - Glassmorphism-style cells
 
 ## How to Use

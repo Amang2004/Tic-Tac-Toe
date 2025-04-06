@@ -130,6 +130,10 @@ nav ul {
     font-size: 3rem;
     padding: 0 2rem;
 }
+html {
+    touch-action: manipulation;
+}
+
 
 /* Responsive Design */
 @media (max-width: 480px) {
@@ -138,19 +142,19 @@ nav ul {
         height: 80px;
         font-size: 32px;
     }
-    @media (max-width: 480px) {
-        .game-board {
-          transform: scale(0.9);
-        }
-      }
-      .container {
+
+    .game-board {
+        transform: scale(0.9);
+    }
+
+    .container {
         width: 100%;
         overflow-x: hidden;
-      }
-      .bubble {
+    }
+
+    .bubble {
         pointer-events: none;
-      }
-            
+    }
 
     .info {
         font-size: 20px;
@@ -160,3 +164,4 @@ nav ul {
         font-size: 16px;
     }
 }
+
