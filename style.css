@@ -138,6 +138,19 @@ nav ul {
         height: 80px;
         font-size: 32px;
     }
+    @media (max-width: 480px) {
+        .game-board {
+          transform: scale(0.9);
+        }
+      }
+      .container {
+        width: 100%;
+        overflow-x: hidden;
+      }
+      .bubble {
+        pointer-events: none;
+      }
+            
 
     .info {
         font-size: 20px;
